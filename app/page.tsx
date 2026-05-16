@@ -32,7 +32,7 @@ export default function Home() {
         </h2>
         <p className="max-w-xl text-slate-400 text-lg mb-8">
           I am a professional Web Developer with over 5 years of experience specializing in WordPress, 
-          advanced SEO strategies, and modern full-stack web frameworks like Next.js.
+          advanced SEO strategies, and modern full-stack web frameworks.
         </p>
         <div>
           <a 
@@ -48,54 +48,80 @@ export default function Home() {
       <section id="services" className="border-t border-slate-800 bg-slate-950 py-20">
         <div className="max-w-5xl mx-auto px-6">
           <h3 className="text-2xl font-bold text-white mb-12 flex items-center gap-2">
-            <span className="text-teal-400 font-mono text-lg">01.</span> What I Do
+            <span className="text-teal-400 font-mono text-lg">01.</span> Expertise
           </h3>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="p-6 bg-slate-900 border border-slate-800 rounded-lg">
-              <h4 className="text-xl font-bold text-white mb-2">WordPress Development</h4>
+              <h4 className="text-xl font-bold text-white mb-2">WordPress Architecture</h4>
               <p className="text-sm text-slate-400">
-                Custom themes, e-commerce stores, and high-performance specialized commercial sites tailored to your brand.
+                Engineering custom commercial sites, e-commerce stores, and specialized niche business platforms from the ground up.
               </p>
             </div>
             <div className="p-6 bg-slate-900 border border-slate-800 rounded-lg">
-              <h4 className="text-xl font-bold text-white mb-2">Modern Web Apps</h4>
+              <h4 className="text-xl font-bold text-white mb-2">SEO Engineering</h4>
               <p className="text-sm text-slate-400">
-                Building blazing fast, secure, and scalable applications using Next.js, React, Node.js, and JavaScript.
+                Data-driven search volume analysis, aggressive keyword research, and meta-content optimization built natively into layouts.
               </p>
             </div>
             <div className="p-6 bg-slate-900 border border-slate-800 rounded-lg">
-              <h4 className="text-xl font-bold text-white mb-2">SEO Optimization</h4>
+              <h4 className="text-xl font-bold text-white mb-2">Full-Stack JavaScript</h4>
               <p className="text-sm text-slate-400">
-                Strategic keyword research, metadata optimization, and content structuring to push your site to the top of search rankings.
+                Developing fast, modern apps using Next.js, Node.js, and command-line tools to process secure, file-based data structures.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Projects Showcase Placeholder */}
+      {/* Projects Showcase */}
       <section id="projects" className="border-t border-slate-800 py-20">
         <div className="max-w-5xl mx-auto px-6">
           <h3 className="text-2xl font-bold text-white mb-12 flex items-center gap-2">
-            <span className="text-teal-400 font-mono text-lg">02.</span> Selected Work
+            <span className="text-teal-400 font-mono text-lg">02.</span> Selected Projects
           </h3>
-          <div className="bg-slate-900 border border-slate-800 p-8 rounded-lg flex flex-col md:flex-row gap-6 items-center">
-            <div className="w-full md:w-1/2 h-48 bg-slate-800 rounded border border-slate-700 flex items-center justify-center">
-              <span className="text-slate-500 font-mono text-sm">[ Project Image / Live Preview ]</span>
+          
+          <div className="space-y-12">
+            {/* Project 1 */}
+            <div className="bg-slate-900 border border-slate-800 p-8 rounded-lg flex flex-col md:flex-row gap-6 items-center">
+              <div className="w-full md:w-1/2 h-48 bg-slate-950 rounded border border-slate-800 flex flex-col items-center justify-center p-4 text-center">
+                <span className="text-teal-400 font-mono text-xs mb-2">COMMERCIAL PLATFORM</span>
+                <span className="text-white font-bold">Specialized E-Commerce Engine</span>
+              </div>
+              <div className="w-full md:w-1/2">
+                <span className="text-xs text-teal-400 font-mono">Featured Case Study</span>
+                <h4 className="text-2xl font-bold text-white mt-1 mb-3">Niche Business & Breeding Brand</h4>
+                <p className="text-slate-400 text-sm mb-4">
+                  Designed and deployed a highly customized web presence featuring targeted content strategies, automated client inquiry systems, and custom review blocks.
+                </p>
+                <div className="flex gap-3 text-xs font-mono text-slate-400">
+                  <span>WordPress</span>
+                  <span>Tailwind CSS</span>
+                  <span>UI/UX Design</span>
+                </div>
+              </div>
             </div>
-            <div className="w-full md:w-1/2">
-              <span className="text-xs text-teal-400 font-mono">Featured Project</span>
-              <h4 className="text-2xl font-bold text-white mt-1 mb-3">E-Commerce & Niche Platforms</h4>
-              <p className="text-slate-400 text-sm mb-4">
-                A showcase of commercial platforms engineered for seamless user experience and maximum conversion rates, fully optimized for local and global audiences.
-              </p>
-              <div className="flex gap-3 text-xs font-mono text-slate-400">
-                <span>WordPress</span>
-                <span>Tailwind CSS</span>
-                <span>SEO Strategy</span>
+
+            {/* Project 2 */}
+            <div className="bg-slate-900 border border-slate-800 p-8 rounded-lg flex flex-col md:flex-row gap-6 items-center">
+              <div className="w-full md:w-1/2 h-48 bg-slate-950 rounded border border-slate-800 flex flex-col items-center justify-center p-4 text-center">
+                <span className="text-teal-400 font-mono text-xs mb-2">SEO HUB</span>
+                <span className="text-white font-bold">Search Optimization Engine</span>
+              </div>
+              <div className="w-full md:w-1/2">
+                <span className="text-xs text-teal-400 font-mono">Organic Traffic Case Study</span>
+                <h4 className="text-2xl font-bold text-white mt-1 mb-3">High-Volume Content Platform</h4>
+                <p className="text-slate-400 text-sm mb-4">
+                  Built a targeted SEO structure deploying long-form content optimized for specific search terms. Managed competitive analysis, search volume targeting, and meta descriptions to scale search presence.
+                </p>
+                <div className="flex gap-3 text-xs font-mono text-slate-400">
+                  <span>SEO Strategy</span>
+                  <span>Content Engineering</span>
+                  <span>Google Analytics</span>
+                </div>
               </div>
             </div>
           </div>
+
         </div>
       </section>
 
@@ -105,7 +131,7 @@ export default function Home() {
           <span className="text-teal-400 font-mono text-sm">03. What's Next?</span>
           <h3 className="text-4xl font-bold text-white mt-2 mb-4">Get In Touch</h3>
           <p className="text-slate-400 text-sm mb-8">
-            Whether you have a project referral, want to collaborate on a fresh web application, or need to scale up your business's SEO performance, my inbox is always open.
+            Whether you have an enterprise project referral, want to collaborate on a full-stack platform, or need to maximize your search engine ranking, my inbox is always open.
           </p>
           <a 
             href="mailto:castrohakeem@gmail.com" 
